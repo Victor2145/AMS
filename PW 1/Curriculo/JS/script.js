@@ -18,7 +18,7 @@ const botao= document.getElementById("Tema");
 const updateButtonIcon = () => {
     if (!botao) return;
     const darkMode = document.body.classList.contains("dark")
-    botao.textContent = darkMode ? "😎" : "";
+    botao.textContent = darkMode ? "😎" : "🌙";
     botao.title = darkMode ? "Mudar para modo claro" : "Mudar para modo escuro";
 };
 
