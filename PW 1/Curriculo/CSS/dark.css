@@ -86,7 +86,7 @@ header{
     position: absolute;
     left: 15px;
     padding: 5px 10px;
-    border: none;
+    /*border: none;
     border-radius: 5px;
     cursor: pointer;
     background: var(--cor-footer);
@@ -95,5 +95,5 @@ header{
     background: none;
     font-size: 20px;
     border: none;
-    cursor: pointer;
+    cursor: pointer; */
 }
