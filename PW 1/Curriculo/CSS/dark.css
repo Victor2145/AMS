@@ -15,7 +15,7 @@
     --cor-header: #1f1f1f;
     --cor-footer: #2c2c2c;
     --cor-texto: #f1f1f1;
-    --cor-branco: #1e1e1e;
+    --cor-branco: #fff8f8;
     --cor-borda: #444;
     --cor-sombra: #000;
 }
@@ -34,7 +34,7 @@ header {
 }
 
 h1 {
-    color: var(--cor-texto);
+    color: var(--cor-branca);
 }
 
 footer {
@@ -69,6 +69,22 @@ header{
 #Tema {
     position: absolute;
     right: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--cor-footer);
+    color: var(--cor-branca);
+    font-size: 14px;
+    background: none;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Voltar {
+    position: absolute;
+    left: 15px;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
