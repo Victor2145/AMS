@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --cor-principal: #cc008b;
     --cor-hover: #00bfff;
     --cor-voltar: #ff6600;
@@ -30,6 +30,26 @@ body p {
     color: #000000;
 }
 
+h1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: var(--cor-branca);
+}
 
+footer{
+    width: 100%;
+    background: var(--cor-footer);
 
+    text-align: center;
+    color: white;
 
+    padding: 10px 0;
+    margin-top: 40px;
+
+ 
+
+   position: relative;
+}
+
+ */
