@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --cor-principal: #cc008b;
     --cor-hover: #00bfff;
     --cor-voltar: #ff6600;
@@ -6,6 +6,7 @@
     --cor-texto: #333;
     --cor-header: #000000;
     --cor-header-h1: #f3f2f2;
+    --cor-footer: #000000;
 }
 
 *{
@@ -52,4 +53,4 @@ footer{
    position: relative;
 }
 
- */
+
