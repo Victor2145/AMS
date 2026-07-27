@@ -1,5 +1,124 @@
-:root{
-    --cor-preta: #000000;
-    --cor-branca: #f1f1f1;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header{
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+td, th{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elemento{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 3px;
+    transition: .3s;
+}
+
+.elemento:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.indice{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sigla{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.nome{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* Cores */
+
+.metaisalcalinos{
+    background-color: #ff6666;
+}
+
+.metaisalcalinosterrosos{
+    background-color: #ffcc66;
+}
+
+.metaisdetransicao{
+    background-color: #ffd700;
+}
+
+.semimetais{
+    background-color: #66cc66;
+}
+
+.naometais{
+    background-color: #99ff99;
+}
+
+.halogenios{
+    background-color: #66ccff;
+}
+
+.gasesnobres{
+    background-color: #cc99ff;
+}
+
+.lantanideos{
+    background-color: #ff99cc;
+}
+
+.actinideos{
+    background-color: #ff6699;
+}
+
+footer{
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.metais{
+    background-color: #bdbdbd;
+}
