@@ -1,0 +1,87 @@
+body {
+    background-color: #F0F8FF;
+    font-family: Arial, sans-serif;
+    color: #59429d;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    color: #380B61;
+    margin: 25px 0;
+}
+
+.cabecalho h1 {
+    margin: 0 0 10px;
+}
+
+form {
+    background-color: #E6E6FA;
+    border: 1px solid #59429d;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo p {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #59429d;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: #59429d;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CCBBFF;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+}
