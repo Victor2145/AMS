@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parque Recanto da Paz | Cemitério</title>
+  <meta name="description" content="Projeto didático: site de cemitério feito com CSS Grid.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Spectral:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="pagina">
+    <header class="topo">
+      <div class="topo__grade">
+        <a class="marca" href="#inicio">Parque Recanto da Paz</a>
+        <nav class="menu" aria-label="Principal">
+          <a href="#servicos">Serviços</a>
+          <a href="#mapa">Mapa</a>
+          <a href="#visita">Visitas</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="inicio">
+      <div class="hero__grade">
+        <div class="hero__texto">
+          <h1>Um lugar de silêncio para guardar quem amamos.</h1>
+          <p>Há mais de quarenta anos acolhemos famílias com respeito, cuidado e transparência em cada etapa.</p>
+          <a class="botao" href="#contato">Falar com a equipe</a>
+        </div>
+        <div class="lapides" aria-hidden="true">
+          <span class="lapide l1"></span>
+          <span class="lapide l2"></span>
+          <span class="lapide l3"></span>
+          <span class="lapide l4"></span>
+          <span class="lapide l5"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <h2>Serviços</h2>
+      <div class="cartoes">
+        <article class="cartao">
+          <h3>Sepultamento</h3>
+          <p>Jazigos individuais e familiares, com acompanhamento da equipe do início ao fim.</p>
+        </article>
+        <article class="cartao">
+          <h3>Cremação</h3>
+          <p>Atendimento completo, com cerimônia reservada e entrega das cinzas em urna.</p>
+        </article>
+        <article class="cartao">
+          <h3>Columbário</h3>
+          <p>Nichos em ambiente coberto e ventilado, próximo ao Jardim das Memórias.</p>
+        </article>
+        <article class="cartao">
+          <h3>Capela</h3>
+          <p>Salas de velório e capela ecumênica abertas 24 horas por dia.</p>
+        </article>
+        <article class="cartao">
+          <h3>Jardinagem</h3>
+          <p>Limpeza e plantio de flores nos jazigos, em planos mensais ou avulsos.</p>
+        </article>
+        <article class="cartao">
+          <h3>Planos antecipados</h3>
+          <p>Organize com calma e poupe sua família de decisões em momentos difíceis.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mapa" id="mapa">
+      <h2>Mapa do parque</h2>
+      <p class="mapa__intro">Cada área abaixo é uma <code>grid-area</code> posicionada pelo nome em <code>grid-template-areas</code>.</p>
+      <div class="planta">
+        <div class="area entrada">Entrada e administração</div>
+        <div class="area alameda">Alameda dos Cedros</div>
+        <div class="area jardim">Jardim das Memórias</div>
+        <div class="area qa">Quadra A</div>
+        <div class="area qb">Quadra B</div>
+        <div class="area capela">Capela ecumênica</div>
+        <div class="area qc">Quadra C</div>
+        <div class="area qd">Quadra D</div>
+        <div class="area memorial">Columbário</div>
+      </div>
+    </section>
+
+    <section class="visita" id="visita">
+      <div class="visita__grade">
+        <div class="horarios">
+          <h2>Horários de visita</h2>
+          <dl>
+            <dt>Segunda a sexta</dt><dd>7h às 18h</dd>
+            <dt>Sábado</dt><dd>7h às 18h</dd>
+            <dt>Domingo</dt><dd>7h às 17h</dd>
+            <dt>Feriados</dt><dd>8h às 17h</dd>
+            <dt>Finados (2 de novembro)</dt><dd>6h às 19h</dd>
+          </dl>
+        </div>
+        <aside class="aviso">
+          <h3>Antes de vir</h3>
+          <p>Informe o nome completo e a quadra na portaria. Nossa equipe orienta o caminho até o jazigo.</p>
+          <p>Carrinhos elétricos para pessoas com mobilidade reduzida, sem custo.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+      <form class="formulario" action="#" method="post">
+        <label>Nome
+          <input type="text" name="nome" required>
+        </label>
+        <label>Telefone
+          <input type="tel" name="telefone">
+        </label>
+        <label class="largo">E-mail
+          <input type="email" name="email" required>
+        </label>
+        <label class="largo">Mensagem
+          <textarea name="mensagem" rows="4"></textarea>
+        </label>
+        <button class="botao largo" type="submit">Enviar mensagem</button>
+      </form>
+    </section>
+
+    <footer class="rodape">
+      <div class="rodape__colunas">
+        <div>
+          <h3>Parque Recanto da Paz</h3>
+          <p>Projeto didático fictício para estudo de CSS Grid.</p>
+        </div>
+        <div>
+          <h3>Endereço</h3>
+          <p>Rua das Palmeiras, 1200<br>Centro, Cidade Exemplo</p>
+        </div>
+        <div>
+          <h3>Atendimento</h3>
+          <p>(00) 0000-0000<br>24 horas</p>
+        </div>
+        <div>
+          <h3>Navegação</h3>
+          <p><a href="#servicos">Serviços</a><br><a href="#mapa">Mapa</a><br><a href="#visita">Visitas</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
